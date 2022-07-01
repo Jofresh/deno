@@ -2,7 +2,6 @@
 import { h } from "preact";
 import { tw } from "@twind";
 import Counter from "../islands/Counter.tsx";
-import Login from '../islands/Login.tsx';
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
         file, and refresh.
       </p>
       <Counter start={3} />
-      <Login />
     </div>
   );
 }
