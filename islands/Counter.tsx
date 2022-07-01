@@ -14,7 +14,7 @@ export default function Counter(props: CounterProps) {
 
   useEffect(() => {
     console.log('Counter component ok.')
-  }), [])
+  }, [])
   
   useEffect(() => {
     if (count > 0)
