@@ -13,6 +13,10 @@ export default function Counter(props: CounterProps) {
   const btn = tw`px-2 py-1 border(gray-100 1) hover:bg-gray-200`;
 
   useEffect(() => {
+    console.log('Counter component ok.')
+  }), [])
+  
+  useEffect(() => {
     if (count > 0)
       console.log("Positive value")
     else if (count < 0)
